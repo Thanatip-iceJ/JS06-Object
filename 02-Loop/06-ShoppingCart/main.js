@@ -11,7 +11,7 @@ let product = {name, amount, price, discount}
 
 const truePrice = obj => {
     let finalPrice = 0
-    if(obj[+discount == 0]) delete obj.discount;
+    if(+obj[discount == 0]) delete obj.discount;
     if (!'discount' in obj) {
         finalPrice += (+obj[price] * +obj[amount])
     } else {

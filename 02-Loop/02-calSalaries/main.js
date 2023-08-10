@@ -13,7 +13,7 @@ const calSalaries = obj => {
         for(let x in obj) {
             sum += obj[x]
         }
-        return sum
+        return sum;
     }
 }
 

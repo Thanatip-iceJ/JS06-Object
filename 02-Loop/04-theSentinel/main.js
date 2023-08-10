@@ -13,3 +13,5 @@ do {
     fruit[key] = value;
     
 } while(key != TERMINATE || value != TERMINATE)
+
+console.log(fruit)
